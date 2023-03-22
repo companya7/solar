@@ -202,6 +202,15 @@ h6 { font-size: clamp(1rem, 0.818rem + 0.9101vw, 1.5rem); } /* 24px - 16px */
 #informativos .botao .btnBotao p.plus span { margin-top: -30px; }*/
 #informativos .botao .btnBotao:hover { color: var(--laranja); background: var(--branco); }
 
+.btn {
+    height: 76%;
+}
+/*
+.btn {
+    height: 114px;
+}
+*/
+
 #rodape .newsletter .form-control:focus { border-color: var(--cinza); box-shadow: none; }
 #rodape .newsletter form { position: relative; }
 #rodape .newsletter form input { width: 87%; -webkit-border-top-right-radius: 0px; -webkit-border-bottom-right-radius: 0px; -moz-border-radius-topright: 0px; -moz-border-radius-bottomright: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; }
